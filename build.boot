@@ -9,7 +9,7 @@
 (require '[adzerk.bootlaces :refer :all]
          '[adzerk.boot-test :refer :all])
 
-(def +version+ "0.3.5-307bc13")
+(def +version+ "0.3.5-307bc13-SNAPSHOT")
 
 (bootlaces! +version+)
 
@@ -25,4 +25,3 @@
 
 (deftask testing []
   (merge-env! :source-paths #{"test"}))
-
