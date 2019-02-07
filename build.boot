@@ -14,7 +14,7 @@
 (bootlaces! +version+)
 
 (task-options!
- pom  {:project     'spand/boot-cljs-test-mirror
+ pom  {:project     'org.clojars.spandhq/boot-cljs-test-mirror
        :version     +version+
        :description "Boot task to run ClojureScript tests."
        :url         "https://github.com/crisptrutski/boot-cljs-test"
